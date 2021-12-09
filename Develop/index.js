@@ -56,9 +56,8 @@ const questions = [
     type: "input",
     name: "Questions",
     message: "What is the best way to reach you for questions?",
-    choices: ["email","phone"],
+    choices: ["email", "phone"],
     default: ["email"],
-
   },
   {
     type: "input",
