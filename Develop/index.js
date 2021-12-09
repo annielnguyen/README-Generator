@@ -5,7 +5,7 @@ const fs = require("fs");
 
 // // TODO: Create an array of questions for user input
 
-const generateMarkdown = require(`./utils/generateMarkdown.js`);
+const generateMarkdown = require("./utils/generateMarkdown.js");
 
 const questions = [
   {
@@ -27,7 +27,7 @@ const questions = [
     type: "input",
     name: "Installation",
     message:
-      "Give instructions on what needs to be installed in order to run this app",
+      "Give instructions on what needs to be installed in order to run this app.",
   },
   {
     type: "input",

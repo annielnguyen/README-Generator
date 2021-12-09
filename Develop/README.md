@@ -1,8 +1,8 @@
 
-  # README Generator
-  https://github.com/annielnguyen/README Generator
+  # ReadMe
+  https://github.com/annielnguyen/ReadMe
   # Description
-  Users can use this application to create a README quickly.
+  ohojldc
   # Table of Contents 
   * [Installation](#Installation)
   * [Usage](#Usage)
@@ -12,21 +12,21 @@
   * [Questions](#Questions)
   
   # Installation
-  Please install these dependencies to run this application: npm i inquirer
+  Please install these dependencies to run this application: 
   
   # Usage Information
-  To use this app, 
+  To use this app, run in terminal
 
   # License
   This project is licensed under the MIT license. 
   ![GitHub license]([![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   # Contribution
-  ​Contributors: n.a
+  ​Contributors: me
 
   # Tests
-  The following is needed to run the test: 
+  The following is needed to run the test: npm i
 
   # Questions
-  If you have any questions regarding this app, please contact me at: annielnguyen directly at : anguyen.aln@gmail.com.
+  If you have any questions regarding this app, please contact me at: annielnguyen directly at : fks.
   

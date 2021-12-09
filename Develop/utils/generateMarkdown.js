@@ -52,7 +52,7 @@ function generateMarkdown(data) {
 
   # License
   This project is licensed under the ${data.License} license. 
-  ![GitHub license]([![License: MIT](https://img.shields.io/badge/License-${data.License}-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License: MIT](https://img.shields.io/badge/License-${data.License}-yellow.svg)](https://opensource.org/licenses/MIT)
 
   # Contribution
   ​Contributors: ${data.Contributing}
