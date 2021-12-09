@@ -10,7 +10,7 @@ const generateMarkdown = require("./utils/generateMarkdown.js");
 const questions = [
   {
     type: "input",
-    name: "title",
+    name: "Title",
     message: "What is the title of your project?",
   },
   {
@@ -20,7 +20,7 @@ const questions = [
   },
   {
     type: "input",
-    name: "Table of Contents",
+    name: "TableContents",
     message: "Table of Contents",
   },
   {
@@ -58,6 +58,7 @@ const questions = [
     message: "What is the best way to reach you for questions?",
     choices: ["email","phone"],
     default: ["email"],
+
   },
   {
     type: "input",

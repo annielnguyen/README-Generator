@@ -36,31 +36,31 @@ function generateMarkdown(data) {
   https://github.com/${data.Username}/${data.title}
   # Description
   ${data.Description}
-  # Table of Contents 
+  * [License](#License)
+  # [Table of Contents](#TableContents)
   * [Installation](#Installation)
   * [Usage](#Usage)
-  * [License](#License)
-  * [Contributing](#contributing)
+  * [Contributing](#Contributing)
   * [Tests](#Tests)
   * [Questions](#Questions)
   
-  # Installation
-  Please install these dependencies to run this application: ${data.Installation}
-  
-  # Usage Information
-  To use this app, ${data.Usage}
-
-  # License
+  #License
   This project is licensed under the ${data.License} license. 
   [![License: MIT](https://img.shields.io/badge/License-${data.License}-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  # Contribution
+  #Installation
+  Please install these dependencies to run this application: ${data.Installation}
+  
+  #Usage Information
+  To use this app, ${data.Usage}
+
+  #Contribution
   ​Contributors: ${data.contributing}
 
-  # Tests
+  #Tests
   The following is needed to run the test: ${data.Tests}
 
-  # Questions
+  #Questions
   If you have any questions regarding this app, please contact me at: ${data.Username} directly at : ${data.Email}.
   `;
 }

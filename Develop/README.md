@@ -1,8 +1,8 @@
 
-  # ReadMe
-  https://github.com/annielnguyen/ReadMe
+  # amc
+  https://github.com/annielnguyen/amc
   # Description
-  ohojldc
+  amc
   # Table of Contents 
   * [Installation](#Installation)
   * [Usage](#Usage)
@@ -12,21 +12,21 @@
   * [Questions](#Questions)
   
   # Installation
-  Please install these dependencies to run this application: 
+  Please install these dependencies to run this application: npm iquirer, fs
   
   # Usage Information
   To use this app, run in terminal
 
   # License
-  This project is licensed under the MIT license. 
-  ![GitHub license]([![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  This project is licensed under the ISC license. 
+  [![License: MIT](https://img.shields.io/badge/License-ISC-yellow.svg)](https://opensource.org/licenses/MIT)
 
   # Contribution
-  ​Contributors: me
+  ​Contributors: undefined
 
   # Tests
-  The following is needed to run the test: npm i
+  The following is needed to run the test: fhfj
 
   # Questions
-  If you have any questions regarding this app, please contact me at: annielnguyen directly at : fks.
+  If you have any questions regarding this app, please contact me at: annielnguyen directly at : snbcl.
   
