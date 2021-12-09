@@ -32,13 +32,9 @@ function renderLicenseBadge(license) {
 // // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
-  # License
-  This project is licensed under the ${data.License} license. 
-  [![License: MIT](https://img.shields.io/badge/License-${data.License}-yellow.svg)](https://opensource.org/licenses/MIT)
-  # ${data.title}
-  https://github.com/${data.Username}/${data.title}
-  # Description
-  ${data.Description}
+  # Project Name: ${data.Title}
+  https://github.com/${data.Username}/${data.Title}
+  # Description(#Description)
   * [License](#License)
   # [Table of Contents](#TableContents)
   * [Installation](#Installation)
@@ -47,7 +43,13 @@ function generateMarkdown(data) {
   * [Tests](#Tests)
   * [Questions](#Questions)
   
-  
+  # Description
+  ${data.Description}
+
+  # License
+  This project is licensed under the ${data.License} license. 
+  [![License: MIT](https://img.shields.io/badge/License-${data.License}-yellow.svg)](https://opensource.org/licenses/MIT)
+
   # Installation
   Please install these dependencies to run this application: ${data.Installation}
   
