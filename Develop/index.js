@@ -44,7 +44,7 @@ const questions = [
   {
     type: "input",
     name: "Contributing",
-    message: "What contributed to this project?",
+    message: "Who contributed to this project?",
   },
   {
     type: "input",
@@ -55,7 +55,9 @@ const questions = [
   {
     type: "input",
     name: "Questions",
-    message: "Enter contact info for inquiries.",
+    message: "What is the best way to reach you for questions?",
+    choices: ["email","phone"],
+    default: ["email"],
   },
   {
     type: "input",

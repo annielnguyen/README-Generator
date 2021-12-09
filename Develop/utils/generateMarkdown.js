@@ -55,7 +55,7 @@ function generateMarkdown(data) {
   [![License: MIT](https://img.shields.io/badge/License-${data.License}-yellow.svg)](https://opensource.org/licenses/MIT)
 
   # Contribution
-  ​Contributors: ${data.Contributing}
+  ​Contributors: ${data.contributing}
 
   # Tests
   The following is needed to run the test: ${data.Tests}
