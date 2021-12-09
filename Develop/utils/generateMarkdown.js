@@ -61,7 +61,8 @@ function generateMarkdown(data) {
   The following is needed to run the test: ${data.Tests}
 
   #Questions
-  If you have any questions regarding this app, please contact me at: ${data.Username} directly at : ${data.Email}.
+  My GitHub profile link is: https://github.com/${data.Username}.
+  If you have any questions regarding this app, please contact directly at: ${data.Email}.
   `;
 }
 
