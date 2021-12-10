@@ -35,15 +35,15 @@ const questions = [
     message: "How is this app used?",
   },
   {
-    type: "input",
+    type: "list",
     name: "License",
     message: "What license is being used?",
-    choices: ["MIT", "ISC", "GNU", "Apache 2.0"],
+    choices: ["MIT", "ISC", "GNU", "Apache_2.0"],
     default: ["MIT"],
   },
   {
     type: "input",
-    name: "Contributing",
+    name: "Contribution",
     message: "Who contributed to this project?",
   },
   {
@@ -53,7 +53,7 @@ const questions = [
       "What are the commands needed in order to run this app? Give instructions.",
   },
   {
-    type: "input",
+    type: "list",
     name: "Questions",
     message: "What is the best way to reach you for questions?",
     choices: ["email", "phone"],
@@ -80,7 +80,7 @@ function writeToFile(readme, data) {
     if (err) {
       return console.log(err);
     } else {
-      console.log("success");
+      console.log("Your README file has been created!");
     }
   });
 }
